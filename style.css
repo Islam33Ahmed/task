@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #d7d7d7;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/*start nav-bar */
+.nav-bar {
+  position: fixed;
+  padding: 25px;
+  width: 100%;
+  background-color: rgb(33, 31, 31);
+}
+
+.nav-bar .container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar .logo {
+  width: 50%;
+}
+
+.nav-bar .nav-links {
+  display: flex;
+
+}
+
+.nav-links li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.nav-links li a:hover {
+  color: #fcb700;
+  transition: 0.5s;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 120px 0 10px 0;
+}
+
+.item-cart {
+  background-color: white;
+  border: #d7d7d7 1px solid;
+  margin-left: 30px;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.8s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+.item-cart{
+  margin: auto;
+}
+/* .item-cart:hover {
+  background: #fcb700;
+} */
+
+.item-cart img {
+  width: 300px;
+}
+
+.cart-price {
+  margin: 20px 0;
+}
+
+.cart-price,
+.item-content {
+  text-align: center;
+}
+.product{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #d7d7d7;
+  margin: 40px auto;
+}
+.product .btN{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -37.5px 0 0 -75px;
+}
+.btN a{
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+button {
+color: white;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #fcb700;
+  padding: 10px 40px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  cursor: pointer;
+}
+
+.producT{
+  display: flex;
+  justify-content: center;
+}
+.producT button a{
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+}
